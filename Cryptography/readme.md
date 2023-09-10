@@ -3,16 +3,20 @@ Cryptography is a technique to secure data and communication. It is a method of 
 
 Cryptography prior to the modern age was effectively synonymous with encryption, converting readable information (plaintext) to unintelligible nonsense text (ciphertext), which can only be read by reversing the process (decryption). The sender of an encrypted (coded) message shares the decryption (decoding) technique only with intended recipients to preclude access from adversaries. The cryptography literature often uses the names "Alice" (or "A") for the sender, "Bob" (or "B") for the intended recipient, and "Eve" (or "E") for the eavesdropping adversary.[7] Since the development of rotor cipher machines in World War I and the advent of computers in World War II, cryptography methods have become increasingly complex and their applications more varied.
 
-In Cryptography the techniques which are use to protect information are obtained from mathematical concepts and a set of rule based calculations known as algorithms to convert messages in ways that make it hard to decode it. These algorithms are used for cryptographic key generation, digital signing, verification to protect data privacy, web browsing on internet and to protect confidential transactions such as credit card and debit card transactions.
+In Cryptography the techniques which are used to protect information are obtained from mathematical concepts and a set of rule based calculations known as algorithms to convert messages in ways that make it hard to decode it. These algorithms are used for cryptographic key generation, digital signing, verification to protect data privacy, web browsing on internet and to protect confidential transactions such as credit card and debit card transactions.
 
-## Techniques used For Cryptography
-In today’s age of computers cryptography is often associated with the process where an ordinary plain text is converted to cipher text which is the text made such that intended receiver of the text can only decode it and hence this process is known as encryption. The process of conversion of cipher text to plain text this is known as decryption.
+## Cryptographic primitives
+Historically, cryptography was born to transform data so that only the intended receiver can decode it. The operation that transforms  ordinary data (plaintext) into data that can only be read by the intended receiver (ciphertext) is called **encryption**. The encryption process is done by using a key which is kept secret. The ciphertext is obtained by combining the key with the plaintext using an encryption algorithm. **Decryption** is the opposite process, which converts ciphertext into plaintext, as long as the correct **key** is provided.
 
-## Encryption
-Encryption is the process of converting plain text to cipher text. The process of encryption is done by using a key which is a secret code. The key is used to encrypt the plain text and the cipher text is obtained. The key is used to decrypt the cipher text and the plain text is obtained. The key is kept secret and is known only to the sender and the receiver of the message.
+Nowadays, cryptography has gone far beyond encryption and decryption.
+Cryptographic primitives are fundamental operations or features that can be supported by cryptography. Each cryptographic primitive is usually associated to multiple different algorithms.
+The main cryptographic primitives are:
+* symmetric-key encryption;
+* public-key encryption;
+* digital signature;
+* cryptographic hash functions.
 
-## Decryption
-Decryption is the process of converting cipher text to plain text. The process of decryption is done by using a key which is a secret code. The key is used to decrypt the cipher text and the plain text is obtained. The key is used to encrypt the plain text and the cipher text is obtained. The key is kept secret and is known only to the sender and the receiver of the message.
+
 
 ## Types of Cryptography
 There are two types of cryptography:
